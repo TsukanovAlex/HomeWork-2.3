@@ -1,4 +1,4 @@
-// Задание №1
+// // Задание №1
 let password = 'test';
 let interPassword = prompt('Введите пароль');
 if (password === interPassword) {
@@ -6,26 +6,26 @@ if (password === interPassword) {
 } else {
     alert('Пароль введен неправильно');
 }
-// Задание №1 с помощью тернарного оператора.
+// // Задание №1 с помощью тернарного оператора.
 let password1 = 'test';
 let interPassword1 = prompt('Введите пароль');
 password1 === interPassword1 ? alert('Пароль введен верно') : alert('Пароль введен неправильно');
 
-// Задание № 2
+// // Задание № 2
 let c = 5;
 (c>0 && c<10)? alert('Верно') : alert('Не верно');
 
-// Задание №3
+// // Задание №3
 let d = 113;
 let e = 15;
 (d>100 || e>100)? alert('Верно') : alert('Не верно');
 
-// Задание №4
+// // Задание №4
 let a = 2;
 let b = 3;
 alert(a + b);
 
-// Задание №5
+// // Задание №5
 let monthNumber = prompt('Введите номер месяца');
 switch (monthNumber) {
     case '1':
@@ -52,3 +52,17 @@ switch (monthNumber) {
         alert('Такого месяца не сущетвует');
         break;
 }
+// Задание №6
+// Задание по верстке выполнено в другом репозитории
+
+// Дополниельное задание №7
+let number = Number (prompt('Пожалуйста, введите любое число'));
+if (Number.isNaN(+number)) {
+    alert('Вы ввели не число');
+  } else {
+    if (number % 2 === 0) {
+        alert('Число четное');
+    } else {
+        alert('Число нечетное');
+    }
+  }
