@@ -19,3 +19,9 @@ let c = 5;
 let d = 113;
 let e = 15;
 (d>100 || e>100)? alert('Верно') : alert('Не верно');
+
+// Задание №4
+let a = 2;
+let b = 3;
+alert(a + b);
+
