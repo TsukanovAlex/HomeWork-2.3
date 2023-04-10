@@ -15,3 +15,7 @@ password1 === interPassword1 ? alert('Пароль введен верно') : a
 let c = 5;
 (c>0 && c<10)? alert('Верно') : alert('Не верно');
 
+// Задание №3
+let d = 113;
+let e = 15;
+(d>100 || e>100)? alert('Верно') : alert('Не верно');
