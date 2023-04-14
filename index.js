@@ -9,21 +9,21 @@ if (password === interPassword) {
 // Задание №1 с помощью тернарного оператора.
 let password1 = 'test';
 let interPassword1 = prompt('Введите пароль');
-password1 === interPassword1 ? alert('Пароль введен верно') : alert('Пароль введен неправильно');
+alert(password1 === interPassword1 ? 'Пароль введен верно' : 'Пароль введен неправильно')
 
 // Задание № 2
 let c = 5;
-(c > 0 && c < 10) ? alert('Верно') : alert('Не верно');
+alert(c > 0 && c < 10 ? 'Верно' : 'Не верно');
 
 // Задание №3
 let d = 113;
 let e = 15;
-(d > 100 || e > 100) ? alert('Верно') : alert('Не верно');
+alert(d > 100 || e > 100 ? 'Верно' : 'Не верно');
 
 // // Задание №4
-let a = 2;
-let b = 3;
-alert(a + b);
+let a = '2';
+let b = '3';
+alert(Number(a) + Number(b));
 
 // Задание №5
 let monthNumber = prompt('Введите номер месяца');
